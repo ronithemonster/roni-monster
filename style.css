@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.poster-container {
+  background-image: url("banner1.png");
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-details {
+  margin-left: 845px;
+  text-align: right;
+}
+
+.poster-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+}
+
+.poster-des {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.btn-primary {
+  color: white;
+  background:#620bd3;
+  border-radius: 5px;
+  width: 160px;
+  height: 64px;
+  border: 0;
+}
+/* Filour section */
+.failure {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.failure-pic {
+  width: 569px;
+  height: 723.3px;
+  left: 194px;
+  top: 952px;
+}
+.failure-iteams {
+  margin-top: 370px;
+  text-align: center;
+  width: 416px;
+  height: 400px;
+}
+.failure-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.failure-des {
+  color: #444343;
+  font-weight: 400;
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.failure-iteams li {
+  list-style: none;
+  text-align: left;
+  margin: 8px;
+  color: #444343;
+}
+/* my plans */
+
+#plan-Header {
+  text-align: center;
+  margin-bottom: 55px;
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.plan-iteams {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 190px;
+  text-align: center;
+}
+.p-item-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 15px;
+}
+.p-item-des {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+
+
+/* resume style */
+.sec-title {
+  text-align: center;
+  font-size: 50px;
+}
+.resume-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+  background: #74416f11;
+}
+.resume-title {
+  margin-top: 50px;
+  font-size: 25px;
+  color: rgb(78, 72, 72);
+}
+.r-title {
+  color: #050404af;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.r-sub-title {
+  font-size: 18px;
+  color: #423b3bd2;
+  margin-bottom: 8px;
+}
+.r-des {
+  color: #272323cb;
+}
+#r-iteam {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.r-button {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #620bd3;
+}
+
+/* advice */
+.advice-sec {
+  background-image: url("watch.png");
+  background-size: initial;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  width: 100%;
+  margin: 0 150px;
+  padding: 59px 65px;
+  margin-bottom: 65px;
+  align-items: center;
+}
+.advice-title {
+  padding: 20px 100px 0 30px;
+}
+.advice {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.btn-call-now {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #620bd3;
+  border: 0;
+  padding: 20px 35px;
+  border-radius: 5px;
+}
+
+/* footer part */
+#future {
+  display: flex;
+  gap: 20px;
+  background: #151414;
+  padding: 130px 200px;
+}
+#future-info {
+  text-align: left;
+}
+.f-header {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+.f-header-des {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+.btn-sub {
+  color: #620bd3;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 35px;
+  border: 0;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+.future input {
+  margin-top: 30px;
+  border: 0;
+  height: 45px;
+  width: 300px;
+  border-radius: 5px;
+}
